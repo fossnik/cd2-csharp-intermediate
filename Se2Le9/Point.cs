@@ -1,4 +1,6 @@
-﻿namespace Se2Le9
+﻿using System;
+
+namespace Se2Le9
 {
     public class Point
     {
@@ -18,8 +20,10 @@
 
         public void Move(Point newLocation)
         {
-            this.X = newLocation.X;
-            this.Y = newLocation.Y;
+            if (newLocation == null)
+                throw new ArgumentNullException("new location");
+            
+            Move(newLocation.X, newLocation.Y);
         }
     }
 }
