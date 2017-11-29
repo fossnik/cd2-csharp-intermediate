@@ -1,11 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 
 namespace Se2Le9
 {
     internal class Program
     {
         public static void Main(string[] args)
+        {
+            
+        }
+
+        public static void UsePoints()
         {
             try
             {
@@ -15,10 +21,9 @@ namespace Se2Le9
             }
             catch
             {
-                Console.WriteLine("an unexpected error occurred");
+                Console.WriteLine("an unexpected error occcurred");
                 throw;
-            }
-           
+            }  
         }
     }
 }
