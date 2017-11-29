@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.0.0
+MinimumVisualStudioVersion = 10.0.0.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Section1", "Section1/Section1.csproj", "{AA0BDE7B-1F2B-4F85-97CC-16F20D6AED4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Se2Le9", "..\Se2Le9\Se2Le9.csproj", "{15FFA3AE-C233-4B3E-A388-365161CD4849}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA0BDE7B-1F2B-4F85-97CC-16F20D6AED4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0BDE7B-1F2B-4F85-97CC-16F20D6AED4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0BDE7B-1F2B-4F85-97CC-16F20D6AED4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0BDE7B-1F2B-4F85-97CC-16F20D6AED4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15FFA3AE-C233-4B3E-A388-365161CD4849}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FFA3AE-C233-4B3E-A388-365161CD4849}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FFA3AE-C233-4B3E-A388-365161CD4849}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FFA3AE-C233-4B3E-A388-365161CD4849}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
