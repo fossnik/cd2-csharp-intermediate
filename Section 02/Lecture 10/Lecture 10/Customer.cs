@@ -6,7 +6,7 @@ namespace Lecture10
     {
         public int Id;
         public string Name;
-        public List<Order> Orders = new List<Order>();
+        public readonly List<Order> Orders = new List<Order>();
 
         public Customer(int id)
         {
@@ -17,6 +17,11 @@ namespace Lecture10
             : this(id)
         {
             this.Name = name;
+        }
+
+        public void Promote()
+        {
+            Orders = new List<Order>();
         }
     }
 }
