@@ -4,6 +4,10 @@ namespace Lecture12
 {
     public class Person
     {
+        public string Name { get; set; }
+        public string Username { get; set; }
+        public DateTime Birthdate { get; set; }
+        
         public Person(DateTime birthdate)
         {
             Birthdate = birthdate;
