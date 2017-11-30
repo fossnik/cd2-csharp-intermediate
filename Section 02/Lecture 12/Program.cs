@@ -3,16 +3,12 @@ using System.Collections.Generic;
 
 namespace Lecture12
 {
-    public class Person
-    {
-        public DateTime Birthdate { get; set; }
-        
-        public int Age { get; set; }
-    }
     internal class Program
     {
         public static void Main(string[] args)
         {
+            var person = new Person(new DateTime(1982, 1, 1));
+            Console.WriteLine(person.Age);
         }
     }
 }
