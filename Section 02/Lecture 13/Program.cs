@@ -7,6 +7,9 @@ namespace Lecture13
     {
         public static void Main(string[] args)
         {
+            var cookie = new HttpCookie();
+            cookie["name"] = "Mosh";
+            Console.WriteLine(cookie["name"]);
         }
     }
 }
