@@ -11,7 +11,7 @@
 
         public void Migrate()
         {
-            _logger.Log("We are migrating blah blah..");
+            Logger.Log("We are migrating blah blah..");
         }
     }
 }

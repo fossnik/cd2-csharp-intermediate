@@ -11,7 +11,7 @@
 
         public void Install()
         {
-            _logger.Log("We are installing the application");
+            Logger.Log("We are installing the application");
         }
     }
 }
