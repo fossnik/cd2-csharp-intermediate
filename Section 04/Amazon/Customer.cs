@@ -9,12 +9,8 @@ namespace Lecture21
 
         public void Promote()
         {
-            Console.WriteLine("Promote logic changed.");
-        }
-
-        protected int CalculateRating(bool excludeOrders)
-        {
-            return 0;
+            var calculator = new RateCalculator();
+            var rating = calculator;
         }
     }
 }
