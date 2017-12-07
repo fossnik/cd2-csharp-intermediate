@@ -14,6 +14,8 @@ namespace Lecture24
             list.Add(DateTime.Today);
             
             var anotherList = new List<int>();
+            var names = new List<string>();
+            names.Add();
         }
     }
 }
