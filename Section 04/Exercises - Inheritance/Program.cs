@@ -25,16 +25,16 @@ namespace Exercises_Inheritance
 
         public object Pop()
         {
-            var last = stack.FindLastIndex();
-            var last_element = stack.ElementAt(last);
+            var last = stack.Count;
+            var last_element = stack.ElementAt(last - 1);
             
-            stack.RemoveAt(last);
+            stack.RemoveAt(last - 1);
             return last_element;
         }
 
         public void Clear()
         {
-            stack.RemoveAll();
+            stack.RemoveRange(0, stack.Count);
         }
     }
     internal class Program

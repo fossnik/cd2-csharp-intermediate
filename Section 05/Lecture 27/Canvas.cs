@@ -9,16 +9,19 @@ namespace Lecture27
         {
             foreach (var shape in shapes)
             {
-                switch (shape.Type)
-                {
-                    case ShapeType.Circle:
-                        Console.WriteLine("Draw a circle");
-                        break;
-                            
-                    case ShapeType.Rectangle:
-                        Console.WriteLine("Draw a rectangle");
-                        break;
-                }
+//                switch (shape.Type)
+//                {
+//                    case ShapeType.Circle:
+////                        Console.WriteLine("Draw a circle");
+//                        break;
+//                            
+//                    case ShapeType.Rectangle:
+////                        Console.WriteLine("Draw a rectangle");
+//                        break;
+//                }
+                
+                // new method
+                shape.Draw();
             }
         }
     }
