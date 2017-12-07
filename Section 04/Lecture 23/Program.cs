@@ -9,6 +9,13 @@ namespace Lecture23
         {
             Text text = new Text();
             Shape shape = new Shape();
+
+            text.Width = 200;
+            shape.Width = 100;
+            
+            // both text and shape are references to the same object
+            // this is converting an object to a base class reference.
+            Console.WriteLine(text.Width);
         }
     }
 }
