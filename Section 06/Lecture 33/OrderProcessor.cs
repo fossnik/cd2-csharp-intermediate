@@ -8,7 +8,7 @@ namespace Testability
 
         public OrderProcessor(IShippingCalculator shippingCalculator)
         {
-            _shippingCalculator = shippingCalculator;
+            _shippingCalculator = new ShippingCalculator();
         }
 
         public void Process(Order order)
