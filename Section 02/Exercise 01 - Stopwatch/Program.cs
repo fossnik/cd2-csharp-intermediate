@@ -30,12 +30,15 @@ namespace Exercise01_Stopwatch
             {
                 Console.WriteLine("Press any key to start");
                 Console.ReadLine();
-                
+                Console.ReadLine();
+
                 _stopwatch.Start();
                 
                 Console.WriteLine("Press any key to stop");
                 Console.ReadLine();
-                
+                Console.ReadLine();
+
+                Console.Clear();
                 Console.WriteLine("Elapsed time is {0} seconds\n\n", _stopwatch.Stop());
             }
         }
