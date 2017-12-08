@@ -28,13 +28,13 @@ namespace Exercise01_Stopwatch
             
             while (true)
             {
-                Console.WriteLine("Press any key to start");
+                Console.WriteLine("ENTER to start");
                 Console.ReadLine();
                 Console.ReadLine();
 
                 _stopwatch.Start();
                 
-                Console.WriteLine("Press any key to stop");
+                Console.WriteLine("ENTER to stop");
                 Console.ReadLine();
                 Console.ReadLine();
 
