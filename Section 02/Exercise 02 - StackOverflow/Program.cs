@@ -16,6 +16,7 @@ using System.Collections.Generic;
  * state and hide its implementation detail.  
  */
 
+
 namespace Exercise02_StackOverflow
 {
     internal class Post
